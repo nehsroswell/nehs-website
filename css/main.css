@@ -1,0 +1,16 @@
+/* Fonts imported from google fonts:
+    Lora - titles
+    Lato (light) - paragraph text
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+    background-color: #dcceb6;
+    color: rgb(41, 41, 41);
+}
+
+.lora {
+    font-family: 'Lora';
+}
