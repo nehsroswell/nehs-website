@@ -1,0 +1,17 @@
+.calendar > iframe {
+    position: static;
+    height: 600px;
+    width: 85%;
+    border-radius: 5PX;
+}
+
+.calendar > h1 {
+    font-family: 'Lora';
+    font-weight: bold;
+}
+
+.calendar {
+    padding: 5%;
+    width: 100%;
+    min-height: 75%;
+}
