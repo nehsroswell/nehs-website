@@ -1,0 +1,182 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    color: rgb(210, 210, 210);
+    height: 2rem;
+    font-family: 'Libre Franklin';
+    font-weight: 100;
+    background-color: black;
+}
+
+#navbar > a {
+    padding: 1rem;
+    font-size: smaller;
+}
+
+#navbar > span {
+    color: rgba(128, 128, 128, 0.612);
+}
+
+/* NAVIGATION ^, TITLE V */
+
+#title-section {
+    padding: 2rem;
+    border-bottom: 1px black solid;
+}
+
+#title {
+    font-family: 'Marcellus';
+    font-size: 3.3rem;
+    letter-spacing: -2;
+}
+
+#subtitle {
+    font-family: 'Libre Franklin';
+    font-size: 1.15rem;
+}
+
+/* TITLES ^, BODY V */
+
+#body-container {
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+}
+
+#info-section {
+    padding: 2rem;
+    border-right: 1px solid black;
+    width: 50%;
+}
+
+#info-t {
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
+#calendar {
+    width: 50%;
+    padding: 2rem;
+}
+
+
+/* LINKS */
+
+#links {
+    padding: 2rem;
+    border-top: 1px solid black;
+    height: auto;
+    width: 100%;
+}
+
+#link-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    max-width: 50%;
+}
+
+#link-box > div {
+    padding: 1.5rem;
+}
+
+#l-subtitle {
+    font-size: 1.3rem;
+    text-decoration: underline;  
+}
+
+#link-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: auto;
+}
+
+/* LINK BUTTONS */
+
+#email-btn {
+    display: flex;
+    margin: 1rem;
+    margin-left: 0;
+    max-width: 11rem;
+    border-radius: 5px;
+    border:1.5px solid black;
+    height: .5rem;
+    align-items: center;
+    color: black;
+    padding: 0;
+    font-family: 'Libre Franklin';
+    font-weight: bold;
+}
+
+#email-btn > a {
+    display: flex;
+    font-size: .875em;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+}
+
+#email-btn img {
+    width: 35px;
+    height: 35px;
+    padding-right:.5rem ;
+}
+
+#groupme-btn {
+    display: flex;
+    margin: 1rem;
+    max-width: 11rem;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    height: .5rem;
+    color: black;
+    font-family: 'Libre Franklin';
+    font-weight: bold;
+    margin-left: 0;
+}
+
+#groupme-btn > a {
+    display: flex;
+    font-size: .875em;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+}
+
+#groupme-btn img {
+    width: 35px;
+    height: 35px;
+    padding-right:.5rem ;
+}
+
+/* FOOTER */
+
+footer {
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: rgb(202, 202, 202);
+    font-family: 'Libre Franklin';
+    font-size: .80em;
+    line-height: 1.5;
+    border-top: 1px white;
+}
+
+footer > ul {
+    list-style: none;
+    padding-left: 1.5rem;
+}
+
+footer a {
+    text-decoration: underline;
+}
