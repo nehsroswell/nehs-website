@@ -4,12 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
         <link rel="stylesheet" href="css/main.css" type="text/css">
+        <script src="js/calendar.js"></script>
     </head>
     <body>
         <section id="navbar">
-            <a>Home</a>
-            <a>Tutoring</a>
-            <a>Our Resources</a>
+            <a class="gen-link" href="index.html">Home</a>
+            <a class="gen-link" href="tutoring.html">Tutoring</a>
+            <a class="gen-link" href="resources.html">Our Resources</a>
         </section>
         <section id="title-section">
             <div id="title">National English Honor Society</div>
@@ -22,28 +23,34 @@
                     creating opportunities for Roswell students to get involved in reading and writing enrichment outside of the classroom. We offer writing competitions, workshops, and volunteer opportunities.
                 </p>
             </section>
-            <table id="calendar">
-                <tbody>
-                    <tr><td></td></tr>
-                    <tr><td></td></tr>
-
-
-                </tbody>
-            </table>
+            <div id="calendar">
+                <div id="cal-t">Meeting Dates</div>
+                <table>
+                    <tbody>
+                        <tr><td>2 October</td><td>A/B Lunch</td><td>Persuasive Essay Seminar</td></tr>
+                        <tr><td>6 October</td><td>A/B Lunch</td><td>Persuasive Essay Seminar</td></tr>
+                        <tr><td>9 October</td><td>A/B Lunch</td><td>Persuasive Essay Seminar</td></tr>
+                        <tr><td>13 October</td><td>A/B Lunch</td><td>Persuasive Essay Seminar</td></tr>
+                        <tr><td>26 October</td><td>3:30 PM</td><td>General Club Meeting</td></tr>
+                        <tr><td>16 November</td><td>3:30 PM</td><td>General Club Meeting</td></tr>
+                        <tr><td>7 December</td><td>3:30 PM</td><td>General Club Meeting</td></tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
         <section id="links">
             <div id="l-subtitle">Links & Contact</div>
             <div id="link-box">
-                <div id="email-btn"><a><img src="assets/images/mail.png"><span>Email Us</span></a></div>
-                <div id="groupme-btn"><a><img src="assets/images/group-me.png"><span>Join our Group Me</span></a></div>
+                <div id="email-btn"><a href="mailto:nehsrhsclub@gmail.com"><img src="assets/images/mail.png"><span>Email Us</span></a></div>
+                <div id="groupme-btn"><a href="https://groupme.com/join_group/89350455/WzIPLB3X"><img src="assets/images/group-me.png"><span>Join our Group Me</span></a></div>
             </div>    
         </section>
         <footer>
-            <img>
+            <a href="https://www.fultonschools.org/roswellhs"><img src="assets/images/rhs-logo.png"></a>
             <ul>
                 <li>National English Honor Society at Roswell</li>
                 <li>11595 King Rd Roswell, GA</li>
-                <li>Website coded and designed by <a href="https://camstnhd.github.io">Cameron Houde</a>.</li>
+                <li>Website coded and designed by <a class="gen-link" href="https://camstnhd.github.io">Cameron Houde</a>.</li>
             </ul>
         </footer>
     </body>

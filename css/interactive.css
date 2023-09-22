@@ -1,0 +1,27 @@
+#email-btn:hover, #groupme-btn:hover {
+    background-color: orange;
+}
+
+@media screen and (max-width:700px) {
+    #body-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #info-section {
+        width: 100%;
+    }
+    #calendar {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    #navbar {
+        width: 100%;
+    }
+
+    #footer {
+        width: 100%;
+    }
+}
